@@ -1,0 +1,80 @@
+
+/* ------------ General CSS ------------ #818080 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+h1 {
+    border-bottom-width: .1em;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+header {
+    margin: 4em auto 0 auto;
+    width: 35%;
+}
+
+header h1 {
+    border: none;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    width: 35%;
+    margin: 0 auto;
+}
+
+input[type="text"]{
+    border-radius: .5em;
+    border: .1em solid #818080;
+    width: 68%;
+}
+
+input:disabled{
+    border: none;
+    background-color: #fff;
+}
+button {
+    width: 29%;
+    display: inline;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button__style {
+    margin: 0;
+    padding: 1em;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+button:hover{
+    background-color: #818080; 
+    transition: background-color.5s; 
+}
+
+
+div p {
+    display: inline;
+}
+
